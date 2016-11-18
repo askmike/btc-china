@@ -10,7 +10,7 @@ var BTCChina = function BTCChina(key, secret, server, timeout)
     this.key = key;
     this.secret = secret;
 
-    this.server = server || 'https://api.btcchina.com';
+    this.server = server || 'https://apicn.btcc.com';
 
     this.timeout = timeout || 30000;
 };
